@@ -1,0 +1,22 @@
+/* CSS Document */
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./mediaQuery.scss";
+
+
+$zp:0px;
+$bgAisle:"../_img/flags.jpg";
+$bgVertical: top;
+$bgHorizontal: center;
+$bgRepeat: no-repeat;
+$bgSize: cover;
+$bgBlue: rgba(20, 120, 200, .99);
+/* vender prefix */
+$venderList: "-webkit-", "-moz-", "-ms-", "-o-", "";
+
+body.basictorso
+{
+	@include extendFlex($zp);
+	@include fontSmooth();
+}
+

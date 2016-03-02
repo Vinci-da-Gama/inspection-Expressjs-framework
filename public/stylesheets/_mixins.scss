@@ -1,0 +1,35 @@
+@mixin fontSmooth() {
+	@each $vender in $venderList {
+		#{$vender}font-smoothing: antialiased;
+	}
+	text-rendering: optimizelegibility;
+}
+
+@mixin bg($bgAisle, $bgVertical, $bgHorizontal, $bgRepeat, $bgSize) {
+	background: url($bgAisle) $bgVertical $bgHorizontal $bgRepeat;
+	background-size: $bgSize;
+}
+
+@mixin whRelease() {
+	width: 100%;
+	height: auto;
+	outline: none;
+}
+
+@mixin whp($wip, $heip) {
+	width: $wip;
+	height: $heip;
+}
+
+@mixin mp() {
+	margin: 0 auto;
+	padding: 0;
+}
+
+@mixin extendFlex($zeroPixel) {
+	width: 100%;
+	height: auto;
+	padding: $zeroPixel;
+	margin: $zeroPixel auto;
+	outline: none;
+}

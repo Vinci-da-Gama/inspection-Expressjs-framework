@@ -1,0 +1,117 @@
+{
+    "menu": {
+        "header": "xProgress SVG Viewer",
+        "items": [
+            {
+                "id": "Open",
+                "label": "First Elem...",
+                "name": "name_0",
+                "age": 8
+            },
+            {
+                "id": "OpenNew",
+                "label": "Open New",
+                "name": "name_1",
+                "age": 7
+            },
+            null,
+            {
+                "id": "ZoomIn",
+                "label": "Zoom In",
+                "name": "name_3",
+                "age": 9
+            },
+            {
+                "id": "ZoomOut",
+                "label": "Zoom Out",
+                "name": "name_4",
+                "age": 10
+            },
+            {
+                "id": "OriginalView",
+                "label": "Original View",
+                "name": "name_5",
+                "age": 16
+            },
+            null,
+            {
+                "id": "Quality",
+                "label": "Original View",
+                "name": "name_7",
+                "age": 12
+            },
+            {
+                "id": "Pause",
+                "label": "Original View",
+                "age": 14
+            },
+            {
+                "id": "Mute",
+                "label": "Original View",
+                "name": "name_9",
+                "age": 16
+            },
+            null,
+            {
+                "id": "Find",
+                "label": "Find...",
+                "name": "name_11",
+                "age": 22
+            },
+            {
+                "id": "FindAgain",
+                "label": "Find Again",
+                "name": "name_12",
+                "age": 24
+            },
+            {
+                "id": "Copy",
+                "label": "Find Again",
+                "name": "name_13",
+                "age": 26
+            },
+            {
+                "id": "CopyAgain",
+                "label": "Copy Again",
+                "name": "name_14",
+                "age": 28
+            },
+            {
+                "id": "CopySVG",
+                "label": "Copy SVG",
+                "name": "name_15",
+                "age": 30
+            },
+            {
+                "id": "ViewSVG",
+                "label": "View SVG",
+                "name": "name_16",
+                "age": 3
+            },
+            {
+                "id": "ViewSource",
+                "label": "View Source",
+                "name": "name_17",
+                "age": 2
+            },
+            {
+                "id": "SaveAs",
+                "label": "Save As",
+                "name": "name_18",
+                "age": 1
+            },
+            null,
+            {
+                "id": "Help",
+                "label": "Save As",
+                "age": 0
+            },
+            {
+                "id": "About",
+                "label": "About xProgress CVG Viewer...",
+                "name": "name_21",
+                "age": 6
+            } 
+        ]
+    }
+}
